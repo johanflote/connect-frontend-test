@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "baseUrl": "src/server",
+        "baseUrl": "src",
         "esModuleInterop": true,
         "experimentalDecorators": true,
         "declaration": true,
