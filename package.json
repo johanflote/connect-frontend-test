@@ -1,0 +1,49 @@
+{
+    "name": "acme-games-server",
+    "version": "1.0.0",
+    "description": "Simple server that returns data for the Connect frontend developer test",
+    "main": "src/index.ts",
+    "scripts": {
+        "dev": "nodemon --watch \"src/**\" --ext \"ts,json\" --ignore \"src/**/*.spec.ts\" --exec \"pnpm ts-node src/index.ts\"",
+        "format": "prettier --write \".\"",
+        "lint": "eslint ./src/**/*.ts -c .eslintrc.js --fix",
+        "start": "ts-node src/index.ts",
+        "test": "jest"
+    },
+    "author": "Ubisoft Online Services",
+    "license": "UNLICENSED",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.3",
+        "http-errors": "^2.0.0",
+        "jsonwebtoken": "^8.5.1",
+        "swagger-ui-express": "^4.3.0",
+        "yamljs": "^0.3.0"
+    },
+    "devDependencies": {
+        "@jest-mock/express": "^1.4.5",
+        "@types/compression": "^1.7.2",
+        "@types/cors": "^2.8.12",
+        "@types/express": "^4.17.13",
+        "@types/http-errors": "^1.8.2",
+        "@types/jest": "^27.4.1",
+        "@types/jsonwebtoken": "^8.5.8",
+        "@types/node": "^17.0.21",
+        "@types/swagger-ui-express": "^4.1.3",
+        "@types/yamljs": "^0.2.31",
+        "@typescript-eslint/eslint-plugin": "^5.14.0",
+        "@typescript-eslint/parser": "^5.14.0",
+        "compression": "^1.7.4",
+        "eslint": "^8.10.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "jest": "^27.5.1",
+        "jest-junit": "^13.0.0",
+        "nodemon": "^2.0.15",
+        "prettier": "^2.5.1",
+        "ts-jest": "^27.1.3",
+        "ts-node": "^10.7.0",
+        "typescript": "^4.6.2"
+    }
+}

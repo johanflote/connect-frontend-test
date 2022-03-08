@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src/server",
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "declaration": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noUnusedLocals": false,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "sourceMap": true,
+        "strict": true,
+        "target": "es2018",
+        "types": ["node", "jest"]
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"],
+    "ts-node": {
+        "files": true
+    },
+}
