@@ -69,9 +69,8 @@ A game is an entity with the following information:
 To run the server:
 1. Clone this repository
 2. Install the latest LTS version of node from here: https://nodejs.org/en/download/.
-3. Unpack acme_games_api.7z
-4. Navigate to the unpacked folder with a terminal.
-5. Run these commands:
+3. Navigate to the cloned folder with a terminal.
+4. Run these commands:
     ```
     $ npm install
     $ npm start
